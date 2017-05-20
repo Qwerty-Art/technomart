@@ -5,13 +5,14 @@
 	<title>Technomart</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&amp;subset=cyrillic" rel="stylesheet">
 </head>
 <body>
 	<header class="header">
 		<div class="header__head-line">
 			<div class="wrapper">
-			<a href="#" class="head-line__logo logotype">Техномарт</a>
+				<a href="#" class="head-line__logo logotype">Техномарт</a>
 				<form action="#" class="head-line__search" method="get">
 					<input type="search" class="header-search" name="search-info" value="Поиск">
 				</form>
@@ -39,47 +40,56 @@
 				</div>
 			</div>
 		</div>
-		<div class="header__navigation-header">
-			<div class="wrapper">
-				<ul class="navigation-header__list-nav">
-					<li class="list-nav__item-list"><a href="#" class="item-list__a">Главная</a></li>
-					<li class="list-nav__item-list"><a href="#" class="item-list__a">Компания</a></li>
-					<li class="list-nav__item-list"><a href="#" class="item-list__a">Каталог</a></li>
-					<li class="list-nav__item-list"><a href="#" class="item-list__a">Новости</a></li>
-					<li class="list-nav__item-list"><a href="#" class="item-list__a">Спецпредложения</a></li>
-					<li class="list-nav__item-list"><a href="#" class="item-list__a">Доставка</a></li>
-					<li class="list-nav__item-list"><a href="#" class="item-list__a">Контакты</a></li>
-				</ul>
-			</div>
+		<div class="header__navigation-header wrapper">			
+			<ul class="navigation-header__list-nav">
+				<li class="list-nav__item-list"><a href="#" class="item-list__a a-item-1">Главная</a></li>
+				<li class="list-nav__item-list"><a href="#" class="item-list__a a-item-2">Компания</a></li>
+				<li class="list-nav__item-list"><a href="#" class="item-list__a a-item-3">Каталог</a></li>
+				<li class="list-nav__item-list"><a href="#" class="item-list__a a-item-4">Новости</a></li>
+				<li class="list-nav__item-list"><a href="#" class="item-list__a a-item-5">Спецпредложения</a></li>
+				<li class="list-nav__item-list"><a href="#" class="item-list__a a-item-6">Доставка</a></li>
+				<li class="list-nav__item-list"><a href="#" class="item-list__a a-item-7">Контакты</a></li>
+			</ul>			
 		</div>
 	</header>
 	<main class="main">
-		<div class="main__block-cards">
-			<a href="#" class="block-cards__card">
-				<h2 class="card__name">Материалы</h2>
-				<p class="card__depiction">на любой вкус</p>
-			</a>
-			<a href="#" class="block-cards__card">	
-				<h2 class="card__name">Инструменты</h2>
-				<p class="card__depiction">на все случаи</p>
-			</a>
-			<a href="#" class="block-cards__card">		
-				<h2 class="card__name">Техника</h2>
-				<p class="card__depiction">для стройки</p>
-			</a>
-			<a href="#" class="block-cards__card">			
-				<h2 class="card__name">Скидка 50%</h2>
-				<p class="card__depiction">на 350 товаров</p>
-			</a>
-			<a href="#" class="block-cards__card">		
-				<h2 class="card__name">Доставка</h2>
-				<p class="card__depiction">бесплатно</p>
-			</a>
-			<div class="block-cards__slider">
-
+		<div class="main__block-cards wrapper">
+			<div class="clearfix">
+				<a href="#" class="block-cards__card card_decor">
+					<h2 class="card__name-h">Материалы</h2>
+					<p class="card__depiction-p">на любой вкус</p>
+				</a>
+				<a href="#" class="block-cards__card card_decor">	
+					<h2 class="card__name-h">Инструмент</h2>
+					<p class="card__depiction-p">на все случаи</p>
+				</a>
+				<a href="#" class="block-cards__card card_decor">		
+					<h2 class="card__name-h">Техника</h2>
+					<p class="card__depiction-p">для стройки</p>
+				</a>
+				<a href="#" class="block-cards__card card_decor">		
+					<h2 class="card__name-h">Скидка 50%</h2>
+					<p class="card__depiction-p">на 350 товаров</p>
+				</a>
+				<div class="block-cards__slider">
+					<ul class="slider__scrol">
+						<li class="scrol__scrol-item"></li>
+						<li class="scrol__scrol-item"></li>
+					</ul>
+					<div class="slider_one">
+						
+					</div>
+					<div class="slider_two">
+						
+					</div>
+				</div>
+				<a href="#" class="block-cards__card card_decor">		
+					<h2 class="card__name-h">Доставка</h2>
+					<p class="card__depiction-p">бесплатно</p>
+				</a>
 			</div>
 		</div>
-		<div class="main__popular-products">
+		<div class="main__popular-products wrapper">
 			<div class="popular-products__popular-products-line">
 				<h3 class="popular-products-line__h">Популярные товары:</h3>
 				<a href="#" class="popular-products-line__a">Все популярные товары</a>
@@ -125,7 +135,7 @@
 				<a href="#" class="card__price">12500 р.</a>
 			</article>
 		</div>
-		<div class="main__popular-firms">
+		<div class="main__popular-firms wrapper">
 			<div class="popular-firms__popular-firms-line">
 				<h3 class="popular-firms-line__h">Популярные производители:</h3>
 				<a href="#" class="popular-firms-line__a">Все производители</a>

@@ -1,0 +1,96 @@
+.block-cards__card {
+	display: block;
+	width: 300px;	
+	height: 123px;
+	padding-left: 23px;
+	text-decoration: none;
+	color: white;
+}
+
+.block-cards__card:nth-of-type(1),
+.block-cards__card:nth-of-type(2),
+.block-cards__card:nth-of-type(3) {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.block-cards__card:nth-of-type(3) {
+	margin-right: 0;
+}
+
+.block-cards__card:nth-of-type(4),
+.block-cards__card:nth-of-type(5) {
+	float: right;
+	margin-bottom: 20px;
+}
+
+.block-cards__card:nth-of-type(5) {
+	margin-bottom: 0;
+}
+
+.card_decor:nth-of-type(1) {
+	background-color: #ffbf47;
+	background-image: url("../img/index/bucket.png"), url("../img/index/new-line.png");
+	background-repeat: no-repeat;
+	background-position: 213px 31px,	240px 0px;
+}
+
+.card_decor:nth-of-type(2) {
+	background-color: #3bbce3;
+	background-image: url(../img/index/drill.png);
+	background-repeat: no-repeat;
+	background-position: 197px 33px;
+	
+}
+
+.card_decor:nth-of-type(3) {
+	background-color: #dc91d8;
+	background-image: url(../img/index/tractor.png);
+	background-repeat: no-repeat;
+	background-position: 191px 31px;
+}
+
+.card_decor:nth-of-type(4) {
+	background-color: #8ed78f;
+	background-image: url(../img/index/big-basket.png);
+	background-repeat: no-repeat;
+	background-position: 196px 26px;
+}
+
+.card_decor:nth-of-type(5) {
+	background-color: #ffc047;
+	background-image: url(../img/index/car.png);
+	background-repeat: no-repeat;
+	background-position: 191px 32px;
+}
+
+.card__name-h {
+	font-size: 24px;
+	line-height: 30px;
+	margin-bottom: 0;
+}
+
+.card__depiction-p {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	width: 132px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: normal;
+	text-transform: uppercase;
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+}
+
+.block-cards__slider {
+	float: left;
+	width: 620px;
+	height: 266px;
+	background-color: grey;
+}
