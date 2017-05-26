@@ -1,3 +1,7 @@
+.main__block-cards {
+	margin-bottom: 53px;
+}
+
 .block-cards__card {
 	display: block;
 	width: 300px;	
@@ -163,7 +167,7 @@
 	left: 30px;
 }
 
-.button-decor {
+.button_decor {
 	display: inline-block;
 	vertical-align: top;
 	padding-top: 8px;
@@ -176,5 +180,91 @@
 	color: #ffffff;
 	background-color: #ff5357;
 	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.line_decor {
+	min-height: 90px;
+	margin-bottom: 20px;
+	padding-top: 21px;
+	padding-left: 28px;
+	background-color: #f9f5f0;
+}
+
+.line_decor-h {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #3d546e;
+}
+
+.popular-products-line__a-size {
+	padding-left: 55px;
+	padding-right: 55px;
+}
+
+.button_decor-position {
+	float: right;
+	margin-top: 4px;
+	margin-right: 24px;
+}
+
+.popular-products__card {
+	float: left;
+	width: 220px;
+	min-height: 318px;
+	border: 1px solid #f9f5f0;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.popular-products__card:nth-of-type(4n) {
+	margin-right: 0;
+}
+
+.popular-products__card:nth-of-type(1) {
+
+}
+
+.popular-products__card{}
+
+.popular-products__card{}
+
+.popular-products__card{}
+
+.card__cadr-link-img {
+	display: block;
+	width: 100%;
+	height: 170px;
+	padding-left: 20px;
+	vertical-align: middle;
+}
+
+.cadr-link-img__card-img {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.card__cadr-link-h {
+	display: block;
+	width: 180px;
+	margin-left: 30px;
+	font-family: "PT Sans", "Aria", sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	text-align: center;
+	text-decoration: none;
+	color: #000000;
+}
+
+.card__price {
+	display: block;
+	font-family: "PT Sans", "Aria", sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	color: #000000;
 	text-decoration: none;
 }
