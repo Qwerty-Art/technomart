@@ -225,15 +225,31 @@
 	margin-right: 0;
 }
 
-.popular-products__card:nth-of-type(1) {
-
+.popular-products__card:nth-of-type(4) {
+	background-image: url(../img/index/new-line.png);
+	background-repeat: no-repeat;
+	background-position: 159px -2px;
+	
 }
 
-.popular-products__card{}
+.popular-products__card:nth-of-type(1) .card__cadr-link-img {
+	padding-top: 3px;
+}
 
-.popular-products__card{}
+.popular-products__card:nth-of-type(2) .card__cadr-link-img {
+	padding-top: 27px;
+	padding-left: 39px;
+}
 
-.popular-products__card{}
+.popular-products__card:nth-of-type(3) .card__cadr-link-img {
+	padding-top: 20px;
+	padding-left: 26px;
+}
+
+.popular-products__card:nth-of-type(4) .card__cadr-link-img {
+	padding-top: 27px;
+	padding-left: 31px;
+}
 
 .card__cadr-link-img {
 	display: block;
@@ -251,7 +267,7 @@
 .card__cadr-link-h {
 	display: block;
 	width: 180px;
-	margin-left: 30px;
+	margin-left: 19px;
 	font-family: "PT Sans", "Aria", sans-serif;
 	font-size: 18px;
 	line-height: 20px;
@@ -260,11 +276,73 @@
 	color: #000000;
 }
 
+.cadr-link-h__card-h {
+	margin: 0;
+	margin-top: 8px;
+	margin-bottom: 7px;
+}
+
+.card__old-price {
+	margin-left: 78px;
+	font-family: "PT Sans", "Arial", sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	color: #a9a9a9;
+	text-decoration: line-through;
+	text-transform: uppercase;
+}
+
 .card__price {
+	position: relative;
 	display: block;
+	width: 121px;
+	margin-top: 5px;
+	margin-left: 42px;
+	padding-top: 5px;
+	padding-left: 18px;
+	padding-bottom: 6px;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	background-color: #ff5357;
 	font-family: "PT Sans", "Aria", sans-serif;
 	font-size: 17px;
 	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
 	color: #000000;
 	text-decoration: none;
+}
+
+.card__price::after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 121px;
+	width: 0;
+	height: 0;
+	border-top: 19px solid transparent;
+	border-left: 19px solid #ff5357;
+	border-bottom: 19px solid transparent;
+}
+
+.popular-firms__block-item {
+	display: inline-block;
+	width: 220px;
+	height: 145px;
+	margin-right: 16px;
+	margin-bottom: 19px;
+	border: 1px solid #f9f5f0;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.popular-firms__block-item:nth-of-type(4n) {
+	margin-right: 0;
+}
+
+.bosh {
+	background-image: url("../img/index/bosch.svg");
+	background-position: center center;
+	
 }
