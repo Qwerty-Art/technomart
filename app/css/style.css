@@ -30,7 +30,7 @@ body {
 
 .header__head-line {
 	min-height: 42px;
-	background-color: #33445a;
+	background-color: #293449;
 	color: #ffffff;
 }
 
@@ -66,12 +66,30 @@ body {
 
 .head-line__search {
 	width: 270px;
+	padding-left: 45px
 }
 
 .header-search {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
 	width: 100%;
 	height: 100%;
+	color: #ffffff;
 	outline: none;
+	border: none;
+	background-color: #293449;
+}
+
+.header-search::before {
+	content: "";
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-image: url("../img/spritesheet.png");
+	background-repeat: no-repeat;
+	background-position: -710px -30px;
+	
 }
 
 .head-line__bookmarks,
